@@ -28,7 +28,7 @@
     "test:unit:watch": "jest --verbose --watch",
     "precommit": "lint-staged",
     "prepare": "yarn build",
-    "prepublishOnly": "run-s test lint",
+    "prepublishOnly": "run-s lint",
     "preversion": "yarn lint",
     "version": "yarn lint:fix && git add -A src",
     "postversion": "git push && git push --tags"
