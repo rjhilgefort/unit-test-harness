@@ -1,5 +1,9 @@
-export type ToEqual = (val: any) => boolean;
-export type Expect = (x: any) => { toEqual: ToEqual };
+import expectTypes from 'expect';
+
+// TODO: I pulled this from @types/expect because I couldn't
+//       figure out how to import it.
+export type Expect<T> = (actual: T) => expectTypes.Expectation<T>;
+
 export type Args = any[];
 export type Fn = (...args: Args) => any;
 export type Case = [any[], any];

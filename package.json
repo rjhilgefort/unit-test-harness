@@ -1,6 +1,6 @@
 {
   "name": "unit-test-harness",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Unit Test Harness Helper Utils",
   "author": "Rob Hilgefort <rjhilgefort@gmail.com>",
   "license": "MIT",
